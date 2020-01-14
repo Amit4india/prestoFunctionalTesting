@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="4014c633-5726-4a2a-8b33-42e1bf74a89e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/presto/testPrestoHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/presto/testPrestoHomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/presto/PrestoHomePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,12 +161,20 @@
       <option name="project" value="LOCAL" />
       <updated>1578969514155</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Change the testPrestoHomePage">
+      <created>1578998047765</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1578998047765</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added Initial code for Presto Functional Testing" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Initial code for Presto Functional Testing" />
+    <MESSAGE value="Change the testPrestoHomePage" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change the testPrestoHomePage" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="23" key="#Notifications" timestamp="1578918370100">
@@ -188,10 +197,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="416" y="54" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1366.728@0.0.1366.728" timestamp="1578908658099" />
-    <state x="268" y="0" key="CommitChangelistDialog2" timestamp="1578998010939">
+    <state x="268" y="0" key="CommitChangelistDialog2" timestamp="1578998047061">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="268" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1578998010939" />
+    <state x="268" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1578998047061" />
     <state x="463" y="106" key="FileChooserDialogImpl" timestamp="1578918238036">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

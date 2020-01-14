@@ -6,7 +6,7 @@
     <parameter name="driverPath" value="C:\\Users\\amit5india\\Downloads\\chromedriver_win32\\chromedriver.exe"></parameter>
     <test name="PrestoUI">
         <classes>
-            <class name="com.presto.PrestoHomePage"/>
+            <class name="com.presto.testPrestoHomePage"/>
         </classes>
     </test>
 
