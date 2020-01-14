@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4014c633-5726-4a2a-8b33-42e1bf74a89e" name="Default Changelist" comment="Added Initial code for Presto Functional Testing" />
+    <list default="true" id="4014c633-5726-4a2a-8b33-42e1bf74a89e" name="Default Changelist" comment="Added Initial code for Presto Functional Testing">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/presto/webdriverUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/presto/BaseTestCase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/presto/LaunchBrowser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/presto/PrestoHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/presto/testPrestoHomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/presto/WebDriverUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/presto/BaseTestCase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/presto/LaunchBrowser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/presto/PrestoHomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/presto/PrestoHomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/presto/WebDriverUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,9 +49,9 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TF_FMT" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RunManager" selected="TestNG.C:/Users/amit5india/IdeaProjects/PrestoFunctionTesting/testng.xml">
     <configuration name="C:/Users/amit5india/IdeaProjects/PrestoFunctionTesting/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
@@ -68,6 +81,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PrestoHomePage.PrestoHomePage" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="PrestoFunctionTesting" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.presto.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.presto" />
+      <option name="MAIN_CLASS_NAME" value="com.presto.PrestoHomePage" />
+      <option name="METHOD_NAME" value="PrestoHomePage" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PrestoHomePage.testPrestoHomePage" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="PrestoFunctionTesting" />
       <extension name="coverage">
@@ -89,6 +120,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.C:/Users/amit5india/IdeaProjects/PrestoFunctionTesting/testng.xml" />
+        <item itemvalue="TestNG.PrestoHomePage.PrestoHomePage" />
         <item itemvalue="TestNG.PrestoHomePage" />
         <item itemvalue="TestNG.PrestoHomePage.testPrestoHomePage" />
       </list>
@@ -140,10 +172,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="392" y="12" key="#PrestoHomePage/0.0.1366.728@0.0.1366.728" timestamp="1578912140824" />
-    <state x="275" y="23" key="#Project_Structure" timestamp="1578901626527">
+    <state x="275" y="23" key="#Project_Structure" timestamp="1578966891519">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="23" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1578901626527" />
+    <state x="275" y="23" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1578966891519" />
     <state x="429" y="168" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1578901918073">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -160,38 +192,38 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="106" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1578918238036" />
-    <state width="1323" height="194" key="GridCell.Tab.0.bottom" timestamp="1578918136981">
+    <state width="1323" height="256" key="GridCell.Tab.0.bottom" timestamp="1578969066533">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="194" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1578918136981" />
-    <state width="1323" height="194" key="GridCell.Tab.0.center" timestamp="1578918136981">
+    <state width="1323" height="256" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1578969066533" />
+    <state width="1323" height="256" key="GridCell.Tab.0.center" timestamp="1578969066533">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="194" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1578918136981" />
-    <state width="1323" height="194" key="GridCell.Tab.0.left" timestamp="1578918136981">
+    <state width="1323" height="256" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1578969066533" />
+    <state width="1323" height="256" key="GridCell.Tab.0.left" timestamp="1578969066533">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="194" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1578918136981" />
-    <state width="1323" height="194" key="GridCell.Tab.0.right" timestamp="1578918136981">
+    <state width="1323" height="256" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1578969066533" />
+    <state width="1323" height="256" key="GridCell.Tab.0.right" timestamp="1578969066533">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="194" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1578918136981" />
-    <state width="1323" height="149" key="GridCell.Tab.1.bottom" timestamp="1578913705268">
+    <state width="1323" height="256" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1578969066533" />
+    <state width="1323" height="403" key="GridCell.Tab.1.bottom" timestamp="1578967181869">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="149" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1578913705268" />
-    <state width="1323" height="149" key="GridCell.Tab.1.center" timestamp="1578913705268">
+    <state width="1323" height="403" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1578967181869" />
+    <state width="1323" height="403" key="GridCell.Tab.1.center" timestamp="1578967181869">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="149" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1578913705268" />
-    <state width="1323" height="149" key="GridCell.Tab.1.left" timestamp="1578913705268">
+    <state width="1323" height="403" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1578967181869" />
+    <state width="1323" height="403" key="GridCell.Tab.1.left" timestamp="1578967181869">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="149" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1578913705268" />
-    <state width="1323" height="149" key="GridCell.Tab.1.right" timestamp="1578913705268">
+    <state width="1323" height="403" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1578967181869" />
+    <state width="1323" height="403" key="GridCell.Tab.1.right" timestamp="1578967181869">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="149" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1578913705268" />
+    <state width="1323" height="403" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1578967181869" />
     <state x="275" y="98" key="Vcs.Push.Dialog.v2" timestamp="1578918356306">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -208,5 +240,12 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="65" y="67" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1578913703350" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1578966557020">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1578966557020" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/PrestoFunctionTesting$C__Users_amit5india_IdeaProjects_PrestoFunctionTesting_testng_xml.ic" NAME="$PROJECT_DIR$/testng.xml Coverage Results" MODIFIED="1578968428387" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
