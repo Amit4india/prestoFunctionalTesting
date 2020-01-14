@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite thread-count="1" verbose="1" name="Gmail Suite" annotations="JDK" parallel="tests">
+    <parameter name="appURL" value="https://almsmart.demos.hclets.com/Presto/" />
+    <test name="PrestoUI">
+        <classes>
+            <class name="com.presto.PrestoHomePage"/>
+        </classes>
+    </test>
+
+   </suite>
