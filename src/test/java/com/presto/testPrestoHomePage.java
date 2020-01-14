@@ -16,8 +16,7 @@ public class testPrestoHomePage
         System.setProperty("webdriver.chrome.driver", "C:\\Users\\amit5india\\Downloads\\chromedriver_win32\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         driver.get(appURL);
-        driver
-
+        
 }
 
 }

@@ -1,19 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4014c633-5726-4a2a-8b33-42e1bf74a89e" name="Default Changelist" comment="Added Initial code for Presto Functional Testing">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/presto/webdriverUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/presto/BaseTestCase.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/presto/LaunchBrowser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/presto/PrestoHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/presto/testPrestoHomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/presto/WebDriverUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/presto/BaseTestCase.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/presto/LaunchBrowser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/presto/PrestoHomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/presto/PrestoHomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/presto/WebDriverUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+    <list default="true" id="4014c633-5726-4a2a-8b33-42e1bf74a89e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/presto/testPrestoHomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/presto/testPrestoHomePage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578917763785</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added Initial code for Presto Functional Testing">
+      <created>1578969489254</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1578969489254</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -184,10 +180,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="416" y="54" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1366.728@0.0.1366.728" timestamp="1578908658099" />
-    <state x="268" y="0" key="CommitChangelistDialog2" timestamp="1578917993096">
+    <state x="268" y="0" key="CommitChangelistDialog2" timestamp="1578969488185">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="268" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1578917993096" />
+    <state x="268" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1578969488185" />
     <state x="463" y="106" key="FileChooserDialogImpl" timestamp="1578918238036">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
