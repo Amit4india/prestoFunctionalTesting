@@ -11,12 +11,11 @@ import org.testng.annotations.Parameters;
 public class testPrestoHomePage
 {
     @Test
-    @Parameters ({ "appURL" })
-     public void PrestoHomePage(String appURL) throws InterruptedException {
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\amit5india\\Downloads\\chromedriver_win32\\chromedriver.exe");
+       public void PrestoHomePage() throws InterruptedException {
+       // System.setProperty("webdriver.chrome.driver", "C:\\Users\\amit5india\\Downloads\\chromedriver_win32\\chromedriver.exe");
         WebDriver driver = new ChromeDriver();
-        driver.get(appURL);
-        
+        driver.get("https://almsmart.demos.hclets.com/Presto/");
+
 }
 
 }
