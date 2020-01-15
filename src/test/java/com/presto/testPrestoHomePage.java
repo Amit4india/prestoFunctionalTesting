@@ -15,13 +15,19 @@ import java.net.URL;
 import java.util.concurrent.TimeUnit;
 
 public class testPrestoHomePage {
+    private WebDriver driver;
     @Test
-    public void PrestoHomePage() throws InterruptedException {
-        // System.setProperty("webdriver.chrome.driver", "C:\\Users\\amit5india\\Downloads\\chromedriver_win32\\chromedriver.exe");
-        WebDriver driver = new ChromeDriver();
+    public void PrestoHomePage() throws InterruptedException, MalformedURLException {
+        DesiredCapabilities capability = DesiredCapabilities.chrome();
+        driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), capability);
+        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+        driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
         driver.get("https://almsmart.demos.hclets.com/Presto/");
         System.out.println("This is test 1");
 
+
+
+        // System.setProperty("webdriver.chrome.driver", "C:\\Users\\amit5india\\Downloads\\chromedriver_win32\\chromedriver.exe");
     }
 }
 
